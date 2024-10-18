@@ -107,6 +107,7 @@ static struct flag_list fs_mgr_flags[] = {
     {"logicalblk=", MF_LOGICALBLKSIZE},
     {"sysfs_path=", MF_SYSFS},
     {"defaults", 0},
+    {"dirsync", MS_DIRSYNC},
     {0, 0},
 };
 
